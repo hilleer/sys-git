@@ -1,0 +1,16 @@
+version: '3'
+services:
+  server:
+    build: ./server-go
+  client-1:
+    build: ./client-go
+    links:
+      - server
+  client-2:
+    build: ./client-go
+    links:
+      - server
+  client-3:
+    build: ./client-go
+    links:
+      - server
