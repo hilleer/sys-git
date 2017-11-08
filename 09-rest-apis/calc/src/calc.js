@@ -1,7 +1,7 @@
 let router = require('express').Router();
 
-let addition = require('./helpers/addition.js');
-let subtraction = require('./helpers/subtraction.js');
+let addition = require('../helpers/addition.js');
+let subtraction = require('../helpers/subtraction.js');
 
 router.get('/', (req, res) => {
 	res.json({status: 200, url: '/calc'})

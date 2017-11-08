@@ -3,8 +3,8 @@
 	"version": "1.0.0",
 	"description": "package for sys-integratin section 09: rest api's",
 	"scripts": {
-		"calc-start": "node ./calc/main.js",
-		"calc-dev": "nodemon ./calc/main.js"
+		"start": "node ./src/main.js",
+		"dev": "nodemon ./src/main.js"
 	},
 	"author": "Daniel Hillmann",
 	"license": "ISC",
